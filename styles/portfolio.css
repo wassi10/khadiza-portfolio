@@ -115,9 +115,7 @@ main{
     color: #474747;
 }
 
-section{
-    
-}
+
 /* what i do */
 .what-i-do{
 
@@ -142,4 +140,36 @@ section{
 }
 .skill-description{
     color: #757575;
+}
+/* resume section */
+.resume-content{
+    display: flex;
+    gap: 25px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+  
+}
+
+.resume .description{
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
